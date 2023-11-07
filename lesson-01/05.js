@@ -9,6 +9,6 @@ switch (true) {
         console.log('У меня 100 пудов все получится')
      break; 
 
-   default: '50 на 50'
+   default: console.log('50 на 50')
    }
    
