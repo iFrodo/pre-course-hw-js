@@ -7,6 +7,6 @@ let passportMarried = {
     }
 };
 
-let passportMarriedCopy = { adress: { ...passportMarried.address }, name: passportMarried.name, surname: passportMarried.surname, married: true }
+let passportMarriedCopy = {  name: passportMarried.name, surname: passportMarried.surname,adress: { ...passportMarried.address }, married: true }
 console.log(passportMarried)
 console.log(passportMarriedCopy)
