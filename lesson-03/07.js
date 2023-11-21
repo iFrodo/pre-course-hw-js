@@ -5,3 +5,4 @@ const numbers = [
 ];
 
 let evenNumber = numbers.map(subArr=>subArr.filter(number => number % 2==0))
+console.log(evenNumber)
